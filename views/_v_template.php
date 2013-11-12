@@ -65,7 +65,7 @@
 
 
 <footer>
-	<p>2013+ ThoughtBranch - A Tar-Tar Production</p>
+	<p>2013+ ThoughtBranch -</p>
 </footer>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
