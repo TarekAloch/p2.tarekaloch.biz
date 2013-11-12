@@ -1,0 +1,21 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^smarterbe\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.smarterbe\.com$
+RewriteRule ^(.*)$ "http\:\/\/app\.whatisbe\.com\:8888\/$1" [R=301,L]
+
+
+# Use PHP54 Single php.ini as default
+AddHandler application/x-httpd-php54s .php
+
+RewriteCond %{HTTP_HOST} ^logistiq.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www.logistiq.info$
+RewriteRule ^/?$ "http\:\/\/www\.logistiq\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^logistiq.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www.logistiq.net$
+RewriteRule ^/?$ "http\:\/\/www\.logistiq\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^logistiq.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www.logistiq.org$
+RewriteRule ^/?$ "http\:\/\/www\.logistiq\.com" [R=301,L]
